@@ -7,12 +7,11 @@
 
 
 > const a = 4;
-undefined
+
 >  const b = 6;
-undefined
+
 > console.log(a + b);
 10
-undefined
+
 > console.log(a * b);
 24
-undefined  
