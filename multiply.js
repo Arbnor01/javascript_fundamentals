@@ -1,5 +1,6 @@
 const multiply = (num1, num2) => {
-    return 6 * 3;
+    return num1 * num2;
   };
-
-  console.log (multiply(6, 3));
+  
+  module.exports = multiply;
+  
