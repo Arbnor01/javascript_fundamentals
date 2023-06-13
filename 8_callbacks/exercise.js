@@ -2,4 +2,4 @@ const printHello = () => {
     console.log("Hello!");
     };
     
-    printHello();
+    setTimeout (printHello, 3000);
