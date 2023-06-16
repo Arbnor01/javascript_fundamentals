@@ -26,5 +26,14 @@ it('Increases the temperature to the maximum of 25 when Power Saving Mode is on'
     }
     expect(thermostat.getTemperature()).toBe(25);
   });
+
+it('Resets the temperature back to 20 degrees', () => {
+    const thermostat = new Thermostat();
+    thermostat.up(); // Increase temperature to 21
+    thermostat.reset(); // Reset temperature
+    expect(thermostat.getTemperature()).toBe(20);
+  });
+  
+  
   
   
