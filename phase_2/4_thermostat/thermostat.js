@@ -10,7 +10,19 @@ class Thermostat {
     up() {
       return this.temperature += 1  
     }
-  
+
+    down() {
+        if (this.temperature = 22) {
+          this.temperature -= 1;
+        }
+      }
+      
+      
+      
+      
+      
+      
+
   }
   
   module.exports = Thermostat;
